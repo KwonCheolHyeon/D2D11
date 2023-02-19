@@ -1,2 +1,4 @@
-﻿  EngineTT.cpp
-  EngineTT.vcxproj -> C:\directX\EngineTT\x64\Debug\EngineTT.exe
+﻿  main.cpp
+main.obj : error LNK2019: "public: __cdecl ch::Application::Application(void)" (??0Application@ch@@QEAA@XZ)"void __cdecl `dynamic initializer for 'applicaion''(void)" (??__Eapplicaion@@YAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+main.obj : error LNK2019: "public: __cdecl ch::Application::~Application(void)" (??1Application@ch@@QEAA@XZ)"void __cdecl `dynamic atexit destructor for 'applicaion''(void)" (??__Fapplicaion@@YAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+C:\directX\EngineTT\x64\Debug\EngineTT.exe : fatal error LNK1120: 2개의 확인할 수 없는 외부 참조입니다.
